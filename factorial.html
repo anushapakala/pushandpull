@@ -1,0 +1,23 @@
+<html>
+ <head>
+   <script>
+      function fact(x)
+      {
+         if(x==1)
+         {
+            return 1;
+         }
+        else
+        {
+          return(x*fact(x-1));
+         }
+       }
+     </script>
+    </head>
+    <body>
+     <script>
+         var n=prompt("enter a number",0);
+         document.write(n+"!="+fact(n));
+     </script>
+   </body>
+</head>

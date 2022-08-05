@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>confirm box</h1>
+    <p id="demo"></p>
+    <button onclick="show_confirm()">tryit</button>
+    <script language="javascript">
+       function show_confirm()
+       {
+		   var txt;
+         if(confirm("press ok"))
+         {
+            txt="you pressed ok!";
+          }
+          else
+         {
+           txt="you pressed cancel!"
+         }
+          document.getElementById("demo").innerHTML=txt;
+      }
+   </script>
+  </body>
+</html>
